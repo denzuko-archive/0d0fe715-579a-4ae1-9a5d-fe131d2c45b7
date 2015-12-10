@@ -7,6 +7,7 @@
 		"requirejs": "*",
 		"firebase": "*",
 		"backbone": "*",
+    "backfire": "*",
 		"underscore": "*",
 		"handlebars": "*",
 		"pathjs": "*"

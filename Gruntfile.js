@@ -19,6 +19,7 @@ module.exports = function (grunt) {
         },
         uglify: {
             backbone:   {files: {'assets/js/backbone.min.js':   ['bower_components/backbone/backbone.js']}},
+            backfire:   {files: {'assets/js/backfire.min.js':   ['bower_components/backfire/dist/backbonefire.js']}},
             firebase:   {files: {'assets/js/firebase.min.js':   ['bower_components/firebase/firebase.js']}},
             handlebars: {files: {'assets/js/handlebars.min.js': ['bower_components/handlebars/handlebars.amd.js']}},
             pathjs:     {files: {'assets/js/path.min.js':       ['bower_components/pathjs/path.js']}},

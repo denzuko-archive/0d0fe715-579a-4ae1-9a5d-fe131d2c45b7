@@ -3,3 +3,5 @@ assets/js/require.js
 bower_components
 node_modules
 _site
+*.swp
+*~
