@@ -1,0 +1,5 @@
+assets/js/*.min.js
+assets/js/require.js
+bower_components
+node_modules
+_site

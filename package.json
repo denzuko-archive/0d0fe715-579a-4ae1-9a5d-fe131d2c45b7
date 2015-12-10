@@ -1,0 +1,45 @@
+{
+  "name": "frontend",
+  "version": "0.0.1",
+  "description": "Web application",
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-less": "*",
+    "grunt-contrib-watch": "*",
+    "load-grunt-tasks": "*",
+    "time-grunt": "*",
+    "grunt-exec": "*",
+    "grunt-jekyll": "*",
+    "bower": "*",
+    "uglify": "*",
+    "grunt-cli": "*"
+  },
+  "devDependencies": {
+    "assert": "*",
+    "mocha": "*",
+    "jslint": "*",
+    "jsctags": "*"
+  },
+  "repository": {
+    "url": "http://github.com/freecodecampdallas/freecodecampdallas.github.io",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "http://github.com/freecodecampdallas/freecodecampdallas.github.io/issues"
+  },
+  "main": "Gruntfile.js",
+  "license": "MIT",
+  "engines": {
+    "npm": "1.2.x"
+  },
+  "scripts": {
+    "start": "node node_modules/grunt-cli/bin/grunt",
+    "postinstall": "node node_modules/bower/bin/bower install",
+    "lint": "jslint",
+    "serve": "jekyll s"
+  }
+}

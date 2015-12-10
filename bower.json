@@ -1,0 +1,24 @@
+{
+	"name": "0d0fe715-579a-4ae1-9a5d-fe131d2c45b7",
+	"dependencies": {
+		"bootstrap": "~3.0.0",
+		"fontawesome": "~4.5.0",
+		"jquery": "~2.0.3",
+		"requirejs": "*",
+		"firebase": "*",
+		"backbone": "*",
+		"underscore": "*",
+		"handlebars": "*",
+		"pathjs": "*"
+	},
+	"devDependencies": {
+		"mocha": "*",
+		"assert": "*"
+	},
+	"ignore": [
+		"**/.*",
+		"_site",
+		"node_modules",
+		"bower_components"
+	]
+}

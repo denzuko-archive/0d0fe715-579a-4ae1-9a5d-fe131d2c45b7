@@ -1,0 +1,18 @@
+---
+author_url: http://dwightaspencer.com/
+generator: jekyll 3.0.1
+permalink: pretty
+paginate: 5 # number of artilces on the index
+exclude: 
+        - README.md
+        - package.json
+        - grunt.js
+        - Gruntfile.js
+        - node_modules
+        - bower.js
+        - bower_components
+        - .env
+        - test
+        - tags
+gems: 
+        - jekyll-paginate
