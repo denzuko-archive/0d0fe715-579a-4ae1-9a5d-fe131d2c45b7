@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Web application",
   "dependencies": {
-    "grunt": "~0.4.1",
+    "grunt": "~1.0.0",
     "grunt-contrib-clean": "*",
     "grunt-contrib-concat": "*",
     "grunt-contrib-copy": "*",
